@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 18px/28px 'Borgen';
     color: #666;
     background: #000000;
     width:100%;
@@ -132,7 +132,6 @@ nav  ul  li  a:hover {
 
 .subsection {
 
-    border: 0px;
     padding-bottom: 19px;
     background-image: url("../images/oriz copia.png");
 
