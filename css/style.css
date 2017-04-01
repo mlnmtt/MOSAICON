@@ -5,8 +5,7 @@ html {
 
 body {
     font: 18px/28px 'Borgen';
-    color: #666;
-    background: #000000;
+    background-color: black;
     width:100%;
     display: block;
     margin: 8px;
@@ -41,11 +40,12 @@ h1 {
 
 h2 {
     font-size: 24px;
-    color: #393939;
+    color: crimson;
 }
 
 h3, h4, h5, h6 {
-    color: #666666;
+    font-weight: bold;
+    color: firebrick;
 }
 
 h3 {
@@ -56,7 +56,10 @@ h3 {
 th {
     text-align: left;
     padding: 5px 10px;
+    border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
     color: #444;
 }
 
@@ -64,7 +67,8 @@ td {
     text-align: left;
     padding: 5px 10px;
     border-bottom: 1px solid #e5e5e5;
-    border-right: 1px solid #ffcc00;
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
 }
 
 a {
@@ -94,15 +98,13 @@ a {
 nav {
     float: left;
     margin-right: 20px;
-
-
+    color: white;
 }
 
 section {
-
+    color: black;
     overflow: hidden;
-    background-color: rgb(233, 233, 233);
-    padding-top: 0px;
+    background-color: #888;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
@@ -116,24 +118,29 @@ nav > ul {
     font-size: 14px;
     color: transparent;
     height: 24px;
-
 }
 
 nav > ul > li > a {
-
-    color: #666666;
-
+    color: white;
 }
 
 nav  ul  li  a:hover {
-
     color: #999999;
+}
+
+section div p a {
+    color: #444;
+}
+
+th {
+    font-weight: bold;
+    color: whitesmoke;
 }
 
 .subsection {
 
     padding-bottom: 19px;
-    background-image: url("../images/oriz copia.png");
+    background-image: url("../images/oriz.png");
 
     background-position-x: center;
     background-repeat: repeat-x;
