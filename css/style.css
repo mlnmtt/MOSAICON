@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 18px/28px 'Borgen';
     color: #666;
     background: #eae6d1;
     width:100%;
@@ -89,7 +89,6 @@ section {
 
     overflow: hidden;
     background: #ffffff;
-    padding-top: 0px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
@@ -116,7 +115,6 @@ nav  ul  li  a:hover {
 
 .subsection {
 
-    border: 0px;
     padding-bottom: 19px;
     background-image: url("../images/hr.gif");
     background-repeat: repeat-x;
