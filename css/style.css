@@ -83,10 +83,8 @@ a {
     border-radius: 2px;
     box-shadow: #444444;
     height: 30px;
-    margin-top: -20px;
     max-width: 100%;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-right: 16px;
 
 }
 
@@ -141,10 +139,9 @@ th {
 
     padding-bottom: 19px;
     background-image: url("../images/oriz.png");
-
     background-position-x: center;
     background-repeat: repeat-x;
-    padding-top: 1px;
+    padding-top: 10px;
     padding-right: 1px;
     padding-left: 1px;
 
@@ -176,18 +173,23 @@ th {
 
 .button {
 
+    color: #333333;
     border-color: rgb(200, 200, 200);
     border-radius: 3px;
     border-style: solid;
     border-width: 1px;
-    background-color:rgb(180, 180, 180);
-    vertical-align: middle;
-    color: #333333;
+    background-color: rgb(180, 180, 180);
+    padding-bottom: 2px;
+   /*
+
+
     text-align: center;
-    height: 2px;
+
+
     padding: 12px 10px 10px;
     display: inline-block;
     position: absolute;
-    margin: 2px;
+    margin-top: -12px; */
+
 
 }
