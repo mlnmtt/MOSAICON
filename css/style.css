@@ -25,17 +25,16 @@ header {
 h1 {
 
     text-align: center;
-
     margin-bottom: 100px;
-
-
 
 }
 
+
+
 #mosaicon {
 
-    width: 30%;
-    height: 30%;
+    width: 340px;
+    height: auto;
 }
 
 h2 {
@@ -244,12 +243,6 @@ th {
 
     }
 
-    #mosaicon {
-
-        height: 70%;
-        width: 70%;
-        margin-top: 5px;
-    }
 
     body {
         font: 18px/28px 'Courier';
