@@ -232,7 +232,8 @@ th {
     nav li {
         display: none;
         margin: 0;
-        background-color: #333333;
+        background-color: rgba(51, 51, 51, 0.97);
+
 
     }
 
@@ -265,6 +266,14 @@ th {
         margin-top: 5px;
     }
 
+
+    body {
+        font: 18px/28px 'Courier';
+        background-color: black;
+        width:100%;
+        display: block;
+        margin: 8px;
+    }
     /*nav ul:hover .current {
         background: url(images/icon-check.png) no-repeat 10px 7px;
     }
