@@ -39,12 +39,12 @@ h1 {
 
 h2 {
     font-size: 24px;
-    color: crimson;
+    color: darkred;
 }
 
 h3, h4, h5, h6 {
     font-weight: bold;
-    color: firebrick;
+    color: maroon;
 }
 
 h3 {
@@ -78,7 +78,7 @@ a {
 
 #banner {
 
-    background-color: crimson;
+    background-color: #BB464A;
     border-radius: 2px;
     box-shadow: #444444;
     height: 40px;
@@ -101,7 +101,7 @@ nav {
 section {
     color: black;
     overflow: hidden;
-    background-color: #71757a;
+    background-color: #777;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
@@ -117,13 +117,9 @@ nav > ul {
     height: 24px;
 }
 
-nav ul li {
-
-
-}
 
 nav > ul > li > a {
-    color: white;
+    color: whitesmoke;
 }
 
 nav  ul  li  a:hover {
@@ -132,6 +128,10 @@ nav  ul  li  a:hover {
 
 section div p a {
     color: #444;
+}
+
+section div p a:hover {
+    color: #333;
 }
 
 th {
