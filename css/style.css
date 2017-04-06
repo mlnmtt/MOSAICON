@@ -201,7 +201,7 @@ th {
         background-size: 25px 25px;
         background-repeat: no-repeat;
         background-position: 5px;
-        height:30px;
+        height: 30px;
         width: 86.5%;
         position: relative;
         float: left;
@@ -223,20 +223,22 @@ th {
     nav .current {
         display: block;
     }
+
     nav a {
         display: block;
         padding: 10px;
         text-align: left;
     }
+
     nav .current a {
         background: none;
         color: #666;
     }
 
-
     nav ul:hover {
         background-image: none;
     }
+
     nav ul:hover li {
         display: block;
 
@@ -249,20 +251,20 @@ th {
         margin-top: 5px;
     }
 
-
     body {
         font: 18px/28px 'Courier';
         background-color: black;
-        width:100%;
+        width: 100%;
         display: block;
         margin: 8px;
     }
 
-
-    table{
+    table {
 
         font-size: smaller;
 
     }
+
+}
 
 
