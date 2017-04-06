@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font: 18px/28px 'Borgen';
+    font: 18px/28px 'Courier';
     background-color: black;
     width:100%;
     display: block;
@@ -118,6 +118,11 @@ nav > ul {
     height: 24px;
 }
 
+nav ul li {
+
+
+}
+
 nav > ul > li > a {
     color: white;
 }
@@ -184,16 +189,96 @@ th {
     float: left;
     margin-top: 5px;
 
-   /*
+}
 
 
-    text-align: center;
+@media screen and (max-width: 480px) {
 
+    nav {
+        display: block;
+        background-image: url(../images/menu-alt-512_fff.png);
+        background-size: 25px 25px;
+        background-repeat: no-repeat;
+        background-position: 5px;
+        height:30px;
+        width: 86.5%;
+        position: relative;
+        float: left;
+        border: 1px solid black;
+        position: relative;
+        margin-top: -30px;
+        margin-left: 30px;
+        background-color: #333;
 
-    padding: 12px 10px 10px;
-    display: inline-block;
-    position: absolute;
-    margin-top: -12px; */
+    }
+   nav ul {
+        /*width: 418px;
+        height: 20px;
+        padding: 5px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
 
+        background-color: #333;
+        background-image: url("../images/menu-alt-512_fff.png");
+        background-size: 29px 29px;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgba(0,0,0,.3);
+        margin-top: -30px;
+        margin-left: 30px; */
 
+    }
+    nav li {
+        display: none;
+        margin: 0;
+        background-color: #333333;
+
+    }
+
+    nav .current {
+        display: block;
+    }
+    nav a {
+        display: block;
+        padding: 10px;
+        text-align: left;
+    }
+    nav .current a {
+        background: none;
+        color: #666;
+    }
+
+    /* on nav hover */
+    nav ul:hover {
+        background-image: none;
+    }
+    nav ul:hover li {
+        display: block;
+
+    }
+
+    #mosaicon {
+
+        height: 70%;
+        width: 70%;
+        margin-top: 5px;
+    }
+
+    /*nav ul:hover .current {
+        background: url(images/icon-check.png) no-repeat 10px 7px;
+    }
+
+    /* right nav */
+    /*nav.right ul {
+        left: auto;
+        right: 0;
+    }
+
+    /* center nav */
+    /*nav.center ul {
+        left: 50%;
+        margin-left: -90px;
+    }
+*/
 }
