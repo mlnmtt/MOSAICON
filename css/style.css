@@ -149,6 +149,7 @@ th {
     padding-top: 10px;
     padding-right: 1px;
     padding-left: 1px;
+    overflow-x: auto;
 
 }
 
@@ -263,6 +264,17 @@ th {
         height: 70%;
         width: 70%;
         margin-top: 5px;
+    }
+
+    body{
+        font: 16px/26px 'Courier';
+    }
+
+
+    table{
+
+        font-size: smaller;
+
     }
 
     /*nav ul:hover .current {
