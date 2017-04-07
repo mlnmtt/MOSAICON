@@ -92,10 +92,18 @@ a {
 
 }
 
-nav {
+#nav_default {
     float: left;
     margin-right: 20px;
     color: white;
+    display: block;
+}
+
+#nav_bar {
+    float: left;
+    margin-right: 20px;
+    color: white;
+    display: none;
 }
 
 section {
@@ -105,7 +113,9 @@ section {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
-    margin: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
     border-radius: 2px;
     border-style: solid;
     border-width: 1px;
@@ -194,8 +204,29 @@ th {
 
 @media screen and (max-width: 640px) {
 
-    nav {
+    #nav_bar {
+
         display: block;
+        background-image: url(../images/menu-alt-512_fff.png);
+        background-size: 25px 25px;
+        background-repeat: no-repeat;
+        background-position: 5px;
+        height: 28px;
+        position: relative;
+        float: left;
+        margin-top: 6px;
+        margin-left: 25px;
+        text-align: center;
+        /*border: 1px solid black;
+        border-radius: 2px;
+        background-color: #333;
+        width: 85%; */
+
+    }
+
+    #nav_default {
+
+        visibility: hidden;
         background-image: url(../images/menu-alt-512_fff.png);
         background-size: 25px 25px;
         background-repeat: no-repeat;
@@ -210,7 +241,11 @@ th {
         border-radius: 2px;
         background-color: #333;
         width: 85%; */
+    }
 
+    .button {
+
+        display: none;
     }
 
     nav ul {
@@ -272,6 +307,7 @@ th {
     h1 {
         align-content: center;
     }
+
 
 }
 
