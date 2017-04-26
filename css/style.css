@@ -167,10 +167,10 @@ th {
     background-image: none;
 }
 
-.subsection:last-child {
+/*.subsection:last-child {
 
     background-image: none;
-}
+} */
 
 #logo {
 
@@ -201,6 +201,11 @@ th {
 
 }
 
+.grafici {
+
+    width: 100%;
+    height: auto;
+}
 
 @media screen and (max-width: 640px) {
 
