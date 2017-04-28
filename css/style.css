@@ -205,10 +205,15 @@ th {
 
     width: 100%;
     height: auto;
-    opacity: 0.7;
 }
 
-@media screen and (max-width: 640px) {
+#slogan {
+    
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 800px) {
 
     #nav_bar {
 
