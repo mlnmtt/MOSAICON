@@ -213,6 +213,30 @@ th {
     height: auto;
 }
 
+#jules {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+#pr {
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+#club {
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+#dj  {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
 @media screen and (max-width: 800px) {
 
     #nav_bar {
