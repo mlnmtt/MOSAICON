@@ -94,18 +94,33 @@ a {
 
 }
 
-#nav_default {
-    float: left;
-    margin-right: 20px;
-    color: white;
-    display: block;
-}
-
+/*
 #nav_bar {
     float: left;
     margin-right: 20px;
     color: white;
     display: none;
+} */
+
+#nav_bar {
+
+    background-position: 10px 15px;
+    padding:10px;
+    min-height:30px;
+    width: 100%;
+    position: relative;
+    float: left;
+    display: block;
+    background-image: url(../images/menu-alt-512_fff.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    margin-top: -46px;
+    text-align: center;
+    /*border: 1px solid black;
+    border-radius: 2px;
+    background-color: #333;
+    width: 85%; */
+
 }
 
 section {
@@ -127,6 +142,7 @@ nav > ul {
     font-size: 14px;
     color: transparent;
     height: 24px;
+    width: 50%;
 }
 
 
@@ -136,6 +152,7 @@ nav > ul > li > a {
 
 nav  ul  li  a:hover {
     color: #999999;
+    background-color: #562a2a;
 }
 
 section div p a {
@@ -240,89 +257,48 @@ th {
     height: auto;
 }
 
+.button {
+
+    display: none;
+}
+
+nav ul {
+    display: block;
+    text-align: center;
+}
+
+nav li {
+    display: none;
+    margin: 0;
+    background-color: rgba(51, 51, 51, 0.97);
+
+}
+
+nav .current {
+    display: block;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+
+nav .current a {
+    background: none;
+    color: #666;
+}
+
+nav ul:hover {
+    background-image: none;
+}
+
+nav ul:hover li {
+    display: block;
+
+}
+
 @media screen and (max-width: 800px) {
-
-    #nav_bar {
-
-        background-position: 10px 15px;
-        padding:10px;
-        min-height:30px;
-        width: 100%;
-        position: relative;
-        float: left;
-        display: block;
-        background-image: url(../images/menu-alt-512_fff.png);
-        background-size: 25px 25px;
-        background-repeat: no-repeat;
-        margin-top: -46px;
-        text-align: center;
-        /*border: 1px solid black;
-        border-radius: 2px;
-        background-color: #333;
-        width: 85%; */
-
-    }
-
-    #nav_default {
-
-        visibility: hidden;
-        background-image: url(../images/menu-alt-512_fff.png);
-        background-size: 25px 25px;
-        background-repeat: no-repeat;
-        background-position: 5px;
-        height: 28px;
-        position: relative;
-        float: left;
-        margin-top: -30px;
-        margin-left: 25px;
-        text-align: center;
-        /*border: 1px solid black;
-        border-radius: 2px;
-        background-color: #333;
-        width: 85%; */
-    }
-
-    .button {
-
-        display: none;
-    }
-
-    nav ul {
-        display: block;
-        text-align: center;
-    }
-
-    nav li {
-        display: none;
-        margin: 0;
-        background-color: rgba(51, 51, 51, 0.97);
-
-    }
-
-    nav .current {
-        display: block;
-    }
-
-    nav a {
-        display: block;
-        padding: 10px;
-        text-align: left;
-    }
-
-    nav .current a {
-        background: none;
-        color: #666;
-    }
-
-    nav ul:hover {
-        background-image: none;
-    }
-
-    nav ul:hover li {
-        display: block;
-
-    }
-
 
     body {
         font: 18px/28px 'Courier';
