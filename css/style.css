@@ -235,7 +235,7 @@ th {
 }
 
 #jules {
-    float: left;
+    float: right;
     width: 50%;
     height: auto;
 }
@@ -253,12 +253,17 @@ th {
 }
 
 #dj  {
-    float: left;
+    float: right;
     width: 50%;
     height: auto;
 }
 
 #flowchart {
+    width: 100%;
+    height: auto;
+}
+
+#diagramma {
     width: 100%;
     height: auto;
 }
