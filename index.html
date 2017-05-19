@@ -9,13 +9,16 @@
 
    <!-- <link rel="stylesheet" href="libraries/startbootstrap-grayscale-gh-pages/css/grayscale.css">
     <script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="libraries/startbootstrap-grayscale-gh-pages/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="libraries/startbootstrap-grayscale-gh-pages/vendor/bootstrap/css/bootstrap-theme.css">
 
   </head>
   <body>
+
+  <div class="container">
 
     <header>
       <h1>
@@ -165,8 +168,6 @@
               - Club: MMM, nuova organizzazione di eventi techno a Torino, che cerca spazi per piccole e grandi feste e
               clientela da fidelizzare. <br /> <br />
 
-            <!-- Creare due  "personas" che, in base alla definizione del target delineata, caratterizzano
-            gli utenti "tipo" del sistema. -->
           </p>
 
           <h3 id="scenarios">Scenarios</h3>
@@ -203,8 +204,8 @@
               recensioni, foto e GIF." <br />
           </p>
 
-          <div class="container">
-            <h2>Scenerios</h2>
+
+            <h2>Scenarios</h2>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
@@ -218,7 +219,7 @@
               <div class="carousel-inner">
 
                 <div class="item">
-                  <img src="images/jules.jpg" alt="Clubber attivo" style="width:100%;">
+                  <img src="images/jules_2.jpg" alt="Clubber attivo" style="width:100%;">
                   <div class="carousel-caption">
                     <h3>Clubber attivo</h3>
                     <p>Luca Dea</p>
@@ -226,7 +227,7 @@
                 </div>
 
                 <div class="item">
-                  <img src="images/pr.jpg" alt="Clubber attivo" style="width:100%;">
+                  <img src="images/pr_2.jpg" alt="Clubber attivo" style="width:100%;">
                   <div class="carousel-caption">
                     <h3>Clubber attivo</h3>
                     <p>Cavallerizza Reale</p>
@@ -234,7 +235,7 @@
                 </div>
 
                 <div class="item">
-                  <img src="images/dj.jpg" alt="DJ" style="width:100%;">
+                  <img src="images/dj_2.jpg" alt="DJ" style="width:100%;">
                   <div class="carousel-caption">
                     <h3>DJ emergenti</h3>
                     <p>Red Access</p>
@@ -242,7 +243,7 @@
                 </div>
 
                 <div class="item active">
-                  <img src="images/clubMMM.png" alt="Club" style="width:100%;">
+                  <img src="images/clubMMM_2.jpg" alt="Club" style="width:100%;">
                   <div class="carousel-caption">
                     <h3>Club</h3>
                     <p>Mad Monkeys Mood</p>
@@ -261,17 +262,8 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
-          </div>
-
-          <!-- <img id="jules" src="images/jules.jpg">
-          <img id="pr" src="images/pr.jpg">
-          <img id="dj" src="images/dj.jpg">
-          <img id="club" src="images/clubMMM.png"> -->
 
             <h3 id="interazioni">Interazioni tra utenti</h3>
-              <!-- Creare uno scenario di utilizzo del social network per ciascuna delle due personas delineate.
-            &Egrave; possibile descrivere lo scenario in formato narrativo (max 1000 car) oppure attraverso
-            sketch o vignette. -->
           <table>
             <thead>
             <tr>
@@ -359,11 +351,6 @@
 
         <div class="subsection">
           <h3 id="funzionalita-da-implementare-dettagliate">Funzionalità dettagliate da implementare</h3>
-
-          <!--<p>Inserire una tabella in cui sono elencate SOLO le funzionalità del vostro social network (a basso livello) che COMPARIRANNO NEL PROTOTIPO.
-            Inserire un riferimento alla funzionalità completa a cui fanno riferimento</p>
-
-          <p>Se vengono fatte delle semplificazioni inserirle in questa sezione, sotto la tabella.</p> -->
 
           <table>
             <thead>
@@ -530,12 +517,44 @@
         </div>
 
         <div class="subsection">
+          <h3 id="architettura-dellinformazione">Architettura dell'informazione</h3><br/>
+          <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel2" data-slide-to="1"></li>
+            </ol>
 
-          <h3 id="architettura-dellinformazione">Architettura dell'informazione</h3>
-          <p>Struttura di navigazione</p>
-          <img id="flowchart" src="images/Flowchart.png">
-          <p>Funzione upload media</p>
-          <img id="diagramma" src="images/diagramma%20funzionalità%20(1).png">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+              <div class="item">
+                <img src="images/Flowchart.png" alt="Architettura" style="width:100%;">
+                <div class="carousel-caption">
+                  <h3>Architettura e funzionalità</h3>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="images/diagramma%20funzionalità%20(1).png" alt="Upload" style="width:100%;">
+                <div class="carousel-caption">
+                  <h3>Funzione upload media</h3>
+                </div>
+              </div>
+
+            </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
 
         </div>
 
@@ -556,10 +575,7 @@
 
           <h3 id="profilo-degli-utenti">Profilo degli utenti</h3>
 
-          <p><!--Descrizione sintetica di tutte le caratteristiche degli utenti che hanno partecipato alla valutazione del prototipo.
-            Tale descrizione deve necessariamente contenere almeno il numero degli utenti, l'età, il genere e le caratteristiche rilevanti nel caso
-            specifico del vostro social network (ad esempio il corso di studio e l'anno se studenti, oppure la professione, oppure gli interessi, ...)
-            -->
+          <p>
             Gli utenti che hanno preso parte all'indagine sono prevalentemente giovani con età compresa tra 18 e 45 anni, perlopiù studenti.
             La nostra attenzione è stata chiaramente indirizzata verso coloro i quali amano trascorrere il tempo libero ascoltando musica da club,
             andando a ballare e cercando informazioni su eventi musicali interessanti e compatibili con i loro gusti (clubbers e DJ).
@@ -567,7 +583,7 @@
 
           <h3 id="strumenti-della-valutazione">Strumenti della valutazione</h3>
 
-          <p><!--Questa sezione deve contenere gli strumenti usati durante la valutazione (questionari e/o traccia delle interviste) -->
+          <p>
               Per l'indagine riguardante i clubbers è stata stilata una survey che ha ricevuto 92 risposte:
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSeynjCB9SA57mwtgrWRsUJnNDd3E209F89HeHg3Lk4O9PzxJw/viewform">vedi <strong>MOSAICON</strong> su Google Forms</a>. <br /> <br />
               Per i DJ è stato organizzato un FOCUS GROUP con traccia semi-strutturata per permettere maggiore spontaneità tra direttore e partecipanti,
@@ -579,13 +595,10 @@
 
           <h3 id="risultato-della-valutazione">Risultato della valutazione</h3>
 
-          <p><!--Questa sezione deve contenere la sintesi dei risultati della valutazione, possibilmente in forma di grafici-->
+          <p>
               <strong>Analisi sui clubbers: </strong><br /><br />
             <img class="grafici" src="images/grafico1.png"><br />
             <img class="grafici" src="images/grafico2_1.png"><br /><br />
-            <!-- Inoltre, nel rispondere alla domanda aperta proposta alla fine del questionario riguardante le eventuali
-            esperienze negative nei club, in molti hanno lamentato l'eccessivo uso di droghe da parte di alcuni partecipanti,
-            la confusione e la mancanza di partecipazione da parte di chi frequenta i club per moda. <br /><br /> -->
               <strong>Analisi sui DJ: </strong><br/>
               1. Ritengono SoundCloud un buon mezzo di promozione, forse l'unico che permette di proporre la propria musica gratuitamente,
               sebbene ormai, trovandosi di fronte a competitor dello streaming audio come Spotify e altri colossi, il social stia cercando di strizzare
@@ -605,8 +618,7 @@
 
           <h3 id="analisi-critica-e-lavoro-futuro">Analisi critica e lavoro futuro</h3>
 
-          <p><!--Questa sezione deve contenere una breve analisi degli eventuali problemi riscontrati durante la valutazione e le modifiche
-            da implementare nella (ipotetica) seconda versione del prototipo-->
+          <p>
             Non ci sono stati particolari problemi riscontrati nella nostra visione del social rispetto a quella degli utenti, tutto è stato
             fortunatamente confermato e arricchito da alcuni suggerimenti, in corso di discussione all'interno del team. L'unica pecca è stata
             non essere riusciti a proporre un'intervista approfondita ai locali nonostante avessimo già la traccia pronta,
@@ -619,6 +631,7 @@
         </div>
       </section>
     </div>
+  </div>
   </body>
 </html>
 
