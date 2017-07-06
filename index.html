@@ -1,281 +1,445 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Mosaicon</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>Mosaicon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <!-- <link rel="stylesheet" href="libraries/startbootstrap-grayscale-gh-pages/css/grayscale.css"> -->
+  <link rel="stylesheet" href="libraries/startbootstrap-grayscale-gh-pages/vendor/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="libraries/startbootstrap-grayscale-gh-pages/vendor/bootstrap/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="libraries/lightbox/css/lightbox.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <script src="libraries/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="libraries/lightbox/js/lightbox.js"></script>
+</head>
+
+<body>
+<div class="container">
+
+  <header>
+    <h1>
+      <img id="mosaicon" src="images/MosaiconLogo.png">
+      <!-- <img id="susa" src="images/susa.png"> -->
+    </h1>
+  </header>
+
+  <div id="banner">
+
+    <span id="logo"></span>
+
+    <nav id="nav_bar">
+      <ul>
+        <li class="tag-h2 active">
+          <a href="#nome-del-progetto-e-repository-github">Nome del progetto e repository GITHUB</a>
+        </li>
+        <li class="tag-h2">
+          <a href="#membri-del-team">Membri del team</a>
+        </li>
+        <li class="tag-h2">
+          <a href="#presentazione-concept">Presentazione del concept</a>
+        </li>
+        <li class="tag-h2">
+          <a href="#funzionalita-e-architettura">FunzionalitÃ  e architettura</a>
+        </li>
+        <li class="tag-h2">
+          <a href="#mockup">Mockup</a>
+        </li>
+        <li class="tag-h2">
+          <a href="#video">Video</a>
+        </li>
+        <li class="tag-h2">
+          <a href="#valutazione-con-gli-utenti">Valutazione con gli utenti</a>
+        </li>
+        <li>
+          <a href="https://github.com/SoNet-2017/css3-lab2">View On GitHub</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--<a href="https://github.com/SoNet-2017/css3-lab2" class="button">View On GitHub</a>-->
+
+  </div><!-- end banner -->
+
+  <div class="wrapper">
+
+    <section style="height: auto;">
+
+      <div class="subsection">
+        <h2 id="presentazione-concept">Presentazione del concept</h2>
+
+        <h3 id="concept">Vision</h3>
+
+        <p>
+          Mosaicon Ã¨ un social network per dirette streaming online degli eventi di musica elettronica e la
+          self-promotion. Ãˆ dedicato a clubbers, produttori, DJ, festival e club. Ogni evento ruota attorno allo
+          streaming audio in alta qualitÃ  del DJ set. I clubbers possono riprendere col proprio smartphone una
+          diretta video da mandare in streaming online, in sync con la traccia audio del DJ. Tramite l'applicazione
+          web e mobile chiunque puÃ² diventare regista delle riprese dell'evento, grazie a un player fatto a mosaico.
+          Gli organizzatori di eventi possono cosÃ¬ usufruire di un servizio orizzontale gratuito in stile televisone
+          e promuovere feste, location e la musica. <br /><br />
+          <img id="slogan" src="vetrina/MOSAICON.png">
+        </p>
 
 
-
-    <script src="libraries/jquery-3.2.1.min.js"></script>
-   <!-- <link rel="stylesheet" href="libraries/startbootstrap-grayscale-gh-pages/css/grayscale.css">
-    <script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> -->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="libraries/startbootstrap-grayscale-gh-pages/vendor/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="libraries/startbootstrap-grayscale-gh-pages/vendor/bootstrap/css/bootstrap-theme.css">
-    <link rel="stylesheet" href="libraries/lightbox/css/lightbox.css">
-    <script src="libraries/lightbox/js/lightbox.js"></script>
-
-  </head>
-  <body>
-
-  <div class="container">
-
-    <header>
-      <h1>
-        <img id="mosaicon" src="images/MosaiconLogo.png">
-        <!-- <img id="susa" src="images/susa.png"> -->
-      </h1>
-    </header>
-
-    <div id="banner">
-
-      <span id="logo"></span>
-
-      <nav id="nav_bar">
-        <ul>
-          <li class="tag-h2 active">
-            <a href="#nome-del-progetto-e-repository-github">Nome del progetto e repository GITHUB</a>
-          </li>
-          <li class="tag-h2">
-            <a href="#membri-del-team">Membri del team</a>
-          </li>
-          <li class="tag-h2">
-            <a href="#presentazione-concept">Presentazione del concept</a>
-          </li>
-          <li class="tag-h2">
-            <a href="#funzionalita-e-architettura">Funzionalità e architettura</a>
-          </li>
-          <li class="tag-h2">
-            <a href="#mockup">Mockup</a>
-          </li>
-          <li class="tag-h2">
-            <a href="#video">Video</a>
-          </li>
-          <li class="tag-h2">
-            <a href="#valutazione-con-gli-utenti">Valutazione con gli utenti</a>
-          </li>
-          <li>
-            <a href="https://github.com/SoNet-2017/css3-lab2">View On GitHub</a>
-          </li>
-        </ul>
-      </nav>
-
-      <!--<a href="https://github.com/SoNet-2017/css3-lab2" class="button">View On GitHub</a>-->
-
-    </div><!-- end banner -->
-
-    <div class="wrapper">
-
-      <section style="height: auto;">
         <div class="subsection">
-          <h2 id="nome-del-progetto-e-repository-github">Nome del progetto e repository github</h2>
+          <h2 id="video">Video</h2>
 
-          <p>Nome del progetto: MOSAICON</p>
-          <p>Repository del sito di presentazione progetto: <a href="https://github.com/SoNet-2017/MOSAICON">https://github.com/SoNet-2017/MOSAICON</a></p>
-          <p>Repository del prototipo (codice): <a href="https://github.com/SoNet-2017/MOSAICON-code">https://github.com/SoNet-2017/MOSAICON-code</a></p>
-
+          <p>Inserire il video di "promozione" del vostro social network</p>
 
         </div>
-        <div class="subsection">
-          <h2 id="membri-del-team">Team</h2>
-
-            <div class="table-responsive">
-          <table class="table">
-            <thead>
-              <tr>
-                <th style="text-align: center">Matricola</th>
-                <th style="text-align: center">Cognome</th>
-                <th style="text-align: center">Nome</th>
-                <th style="text-align: center">E-mail</th>
-                <th style="text-align: center">GitHub</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td style="text-align: center">243902</td>
-                <td style="text-align: center">Mattia</td>
-                <td style="text-align: center">Meloni</td>
-                <td style="text-align: center">imelon24@yahoo.com</td>
-                <td style="text-align: center">mlnmtt</td>
-              </tr>
-              <tr>
-                <td style="text-align: center">240680</td>
-                <td style="text-align: center">Danilo</td>
-                <td style="text-align: center">Ronchi</td>
-                <td style="text-align: center">mastarwonki@hotmail.it</td>
-                <td style="text-align: center">mastarwonki</td>
-              </tr>
-              <tr>
-                <td style="text-align: center">193204</td>
-                <td style="text-align: center">Luca</td>
-                <td style="text-align: center">Leli</td>
-                <td style="text-align: center">luca_toni@live.it</td>
-                <td style="text-align: center">russia1993</td>
-              </tr>
-              <tr>
-                <td style="text-align: center">240750</td>
-                <td style="text-align: center">Giuliano</td>
-                <td style="text-align: center">Cammarata</td>
-                <td style="text-align: center">giuliano.cammarata@studenti.polito.it</td>
-                <td style="text-align: center">giul.cammarata</td>
-              </tr>
-            </tbody>
-          </table>
-            </div>
-
-
-        </div>
-        <div class="subsection">
-          <h2 id="presentazione-concept">Presentazione del concept</h2>
-
-          <h3 id="concept">Vision</h3>
-
-          <p>
-              Mosaicon è un social network per dirette streaming online degli eventi di musica elettronica e la
-              self-promotion. È dedicato a clubbers, produttori, DJ, festival e club. Ogni evento ruota attorno allo
-              streaming audio in alta qualità del DJ set. I clubbers possono riprendere col proprio smartphone una
-              diretta video da mandare in streaming online, in sync con la traccia audio del DJ. Tramite l'applicazione
-              web e mobile chiunque può diventare regista delle riprese dell'evento, grazie a un player fatto a mosaico.
-              Gli organizzatori di eventi possono così usufruire di un servizio orizzontale gratuito in stile televisone
-              e promuovere feste, location e la musica. <br /><br />
-              <img id="slogan" src="vetrina/MOSAICON.png">
-          </p>
-
+        <div class="col-md-6">
           <h3 id="target">Target</h3>
 
           <p>
-              <strong>Clubbers:</strong> tendenza a riprendere gli eventi in diretta con gli smartphone. <br />
-              <strong>Festival & Club:</strong> live streaming degli eventi in stile TV per promozione. <br />
-              <strong>Produttori & DJ:</strong> canale overground per ottenere visibilità tramite un sistema orizzontale. <br />
-              <br />
-              Aggregare tutti i membri della club culture in una piattaforma dedicata prima, dopo e durante gli eventi.
+            <strong>Clubbers:</strong> tendenza a riprendere gli eventi in diretta con gli smartphone. <br />
+            <strong>Festival & Club:</strong> live streaming degli eventi in stile TV per promozione. <br />
+            <strong>Produttori & DJ:</strong> canale overground per ottenere visibilitÃ  tramite un sistema orizzontale. <br />
+            <br />
+            Aggregare tutti i membri della club culture in una piattaforma dedicata prima, dopo e durante gli eventi.
 
           </p>
 
           <h3 id="personas">Personas</h3>
 
+
           <p>
-              Il "Prosumer" è lo user standard. <br />
-              Il "Broadcast" è il super-user. <br />
-              Per upload streaming audio, tramite scheda audio PC, bisogna iscriversi come Broadcast. <br /> <br />
+            Il "Prosumer" Ã¨ lo user standard. <br />
+            Il "Broadcast" Ã¨ il super-user. <br />
+            Per upload streaming audio, tramite scheda audio PC, bisogna iscriversi come Broadcast. <br /> <br />
             <strong>PROSUMER: </strong><br />
-              - Passivo: Jules, studente che non ama la vita notturna, ma apprezza molto la musica elettronica e non
-              spenderebbe sempre i soldi del biglietto per andare a ballare. <br />
-              - Attivo: Walid, real clubber under 30, ma anche PR determinato, che ama fare i video con lo smartphone e
-              pubblicare contenuti in diretta sui social.
+            - Passivo: Jules, studente che non ama la vita notturna, ma apprezza molto la musica elettronica e non
+            spenderebbe sempre i soldi del biglietto per andare a ballare. <br />
+            - Attivo: Walid, real clubber under 30, ma anche PR determinato, che ama fare i video con lo smartphone e
+            pubblicare contenuti in diretta sui social.
             <br /><br />
             <strong>BROADCAST: </strong><br />
-              - DJ: Russia, produttore emergente della scena techno torinese, che fa self-promotion alla sua musica sui
-              social e suona nei locali underground della città. <br />
-              - Club: MMM, nuova organizzazione di eventi techno a Torino, che cerca spazi per piccole e grandi feste e
-              clientela da fidelizzare. <br /> <br />
+            - DJ: Russia, produttore emergente della scena techno torinese, che fa self-promotion alla sua musica sui
+            social e suona nei locali underground della cittÃ . <br />
+            - Club: MMM, nuova organizzazione di eventi techno a Torino, che cerca spazi per piccole e grandi feste e
+            clientela da fidelizzare. <br /> <br />
 
           </p>
 
-            <div class="col-md-8">
-          <h3 id="scenarios">Scenarios</h3>
+        </div>
+        <div class="col-md-6">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
 
-          <p id="scenario"> Relazioni simmetriche tra Prosumer e asimettriche tra Prosumer e Broadcast, integrate con notifiche push per tenere traccia delle dirette. <br /><br />
-              "MMM organizza una festa techno al Bunker di Torino il 16 giugno 2017 e crea e pubblica l'evento sulla
-              Timeline di MOSAICON. <br />
-              Tra i DJ ospiti in line-up, Russia è stato contattato tramite PM sulla piattaforma.  <br />
-              A Jules (come a tutti i follower di MMM e di Russia) arriva una notifica push per invitarlo a partecipare
-              e impostare un promemoria per l'evento all'interno dell'applicazione. <br />
-              Jules a sua volta condivide pubblicamente e privatamente l'evento con i propri amici. <br />
-              Il 16 giugno, quando Russia suona, MOSAICON trasforma l'evento della timeline in uno streaming audio HQ
-              ascoltabile da remoto in diretta del DJ set. <br />
-              Jules e tutti gli invitati ricevono una notifica push per collegarsi in diretta o per presentarsi di
-              persona sul luogo. <br />
-              I PR di MMM e tutti i clubbers presenti (come Jules) al Bunker possono riprendere col proprio smartphone
-              video della festa senza audio. Raccolti in una interfaccia a mosaico, vengono sincronizzati con l'audio HQ
-              del DJ set di Russia. <br />
-              Gli amici invitati da Jules e i follower di Russia e MMM che non possono partecipare alla festa al Bunker,
-              seguono l'evento da casa o da mobile su Mosaicon, con audio HQ e il mosaico delle riprese per poter scegliere
-              il punto di vista migliore o quello preferito. <br />
-              Durante la diretta, gli amici di Jules vorrebbero essere lì con lui e condividono il loro desiderio con tutti
-              tramite la piattaforma o l'app. <br />
-              Ogni ripresa video fatta da Jules viene salvata sul suo smartphone. <br />
-              Alla fine della serata, il DJ set di Russia rimane disponibile online all'interno della storia
-              dell'evento organizzato da MMM su Mosaicon. <br />
-              I giorni seguenti MMM correda la traccia audio dell'evento con una descrizione testuale della festa e tutte
-              le foto e i video ufficiali. <br />
-              Jules, condivide i suoi ricordi con recensioni, GIF e foto sulla storia dell'evento ripescandoli dalle riprese
-              che aveva fatto in diretta al Bunker. <br />
-              Tutti i follower di MMM, Russia e Jules che hanno partecipato realmente o virtualmente all'evento ricevono
-              una notifica push sugli aggiornamenti raccontati dagli utenti sulla storia dell'evento. <br />
-              Chiunque voglia rivivere una festa del passato la può cercare su Mosaicon, corredata da audio HQ, storie,
-              recensioni, foto e GIF." <br />
-          </p>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
 
-            </div>
-
-            <div id="myCarousel" class="carousel slide col-md-4" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-              </ol>
-
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-
-                <div class="item">
-                  <img src="images/jules_2.jpg" alt="Clubber attivo" style="width:100%;">
-                  <div class="carousel-caption">
-                    <h3>Clubber attivo</h3>
-                    <p>Luca Dea</p>
-                  </div>
+              <div class="item">
+                <img src="images/jules_2.jpg" alt="Clubber attivo" style="width:100%;">
+                <div class="carousel-caption">
+                  <h3>Clubber attivo</h3>
+                  <p>Luca Dea</p>
                 </div>
-
-                <div class="item">
-                  <img src="images/pr_2.jpg" alt="Clubber attivo" style="width:100%;">
-                  <div class="carousel-caption">
-                    <h3>Clubber attivo</h3>
-                    <p>Cavallerizza Reale</p>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <img src="images/dj_2.jpg" alt="DJ" style="width:100%;">
-                  <div class="carousel-caption">
-                    <h3>DJ emergenti</h3>
-                    <p>Red Access</p>
-                  </div>
-                </div>
-
-                <div class="item active">
-                  <img src="images/clubMMM_2.jpg" alt="Club" style="width:100%;">
-                  <div class="carousel-caption">
-                    <h3>Club</h3>
-                    <p>Mad Monkeys Mood</p>
-                  </div>
-                </div>
-
               </div>
 
-              <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-              </a>
+              <div class="item">
+                <img src="images/pr_2.jpg" alt="Clubber attivo" style="width:100%;">
+                <div class="carousel-caption">
+                  <h3>Clubber attivo</h3>
+                  <p>Cavallerizza Reale</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="images/dj_2.jpg" alt="DJ" style="width:100%;">
+                <div class="carousel-caption">
+                  <h3>DJ emergenti</h3>
+                  <p>Red Access</p>
+                </div>
+              </div>
+
+              <div class="item active">
+                <img src="images/clubMMM_2.jpg" alt="Club" style="width:100%;">
+                <div class="carousel-caption">
+                  <h3>Club</h3>
+                  <p>Mad Monkeys Mood</p>
+                </div>
+              </div>
+
             </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
+      </div>
+      <h3 id="scenarios">Scenarios</h3>
 
-          <div class="subsection">
-            <h3 id="interazioni">Interazioni tra utenti</h3>
+      <p id="scenario"> Relazioni simmetriche tra Prosumer e asimettriche tra Prosumer e Broadcast, integrate con notifiche push per tenere traccia delle dirette. <br /><br />
+        "MMM organizza una festa techno al Bunker di Torino il 16 giugno 2017 e crea e pubblica l'evento sulla
+        Timeline di MOSAICON. <br />
+        Tra i DJ ospiti in line-up, Russia Ã¨ stato contattato tramite PM sulla piattaforma.  <br />
+        A Jules (come a tutti i follower di MMM e di Russia) arriva una notifica push per invitarlo a partecipare
+        e impostare un promemoria per l'evento all'interno dell'applicazione. <br />
+        Jules a sua volta condivide pubblicamente e privatamente l'evento con i propri amici. <br />
+        Il 16 giugno, quando Russia suona, MOSAICON trasforma l'evento della timeline in uno streaming audio HQ
+        ascoltabile da remoto in diretta del DJ set. <br />
+        Jules e tutti gli invitati ricevono una notifica push per collegarsi in diretta o per presentarsi di
+        persona sul luogo. <br />
+        I PR di MMM e tutti i clubbers presenti (come Jules) al Bunker possono riprendere col proprio smartphone
+        video della festa senza audio. Raccolti in una interfaccia a mosaico, vengono sincronizzati con l'audio HQ
+        del DJ set di Russia. <br />
+        Gli amici invitati da Jules e i follower di Russia e MMM che non possono partecipare alla festa al Bunker,
+        seguono l'evento da casa o da mobile su Mosaicon, con audio HQ e il mosaico delle riprese per poter scegliere
+        il punto di vista migliore o quello preferito. <br />
+        Durante la diretta, gli amici di Jules vorrebbero essere lÃ¬ con lui e condividono il loro desiderio con tutti
+        tramite la piattaforma o l'app. <br />
+        Ogni ripresa video fatta da Jules viene salvata sul suo smartphone. <br />
+        Alla fine della serata, il DJ set di Russia rimane disponibile online all'interno della storia
+        dell'evento organizzato da MMM su Mosaicon. <br />
+        I giorni seguenti MMM correda la traccia audio dell'evento con una descrizione testuale della festa e tutte
+        le foto e i video ufficiali. <br />
+        Jules, condivide i suoi ricordi con recensioni, GIF e foto sulla storia dell'evento ripescandoli dalle riprese
+        che aveva fatto in diretta al Bunker. <br />
+        Tutti i follower di MMM, Russia e Jules che hanno partecipato realmente o virtualmente all'evento ricevono
+        una notifica push sugli aggiornamenti raccontati dagli utenti sulla storia dell'evento. <br />
+        Chiunque voglia rivivere una festa del passato la puÃ² cercare su Mosaicon, corredata da audio HQ, storie,
+        recensioni, foto e GIF." <br />
+      </p>
 
-              <div class="table-responsive">
-              <table class="table">
+
+      <div class="subsection">
+        <h2 id="mockup">Mockup</h2>
+
+        <p>Inserire il mockup realizzato con Balsamiq</p>
+
+      </div>
+
+
+      <div class="subsection">
+        <h2 id="funzionalita-e-architettura">FunzionalitÃ  e architettura</h2>
+
+        <h3 id="funzionalita-complete-del-social-network">FunzionalitÃ  complete del social network</h3>
+
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+            <tr>
+              <th style="text-align: center">FunzionalitÃ  complete</th>
+              <th style="text-align: center">Descrizione</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td style="text-align: center">Streaming audio-video</td>
+              <td style="text-align: center">Flussi dati audio HQ e video separati in diretta</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">Mosaico dirette</td>
+              <td style="text-align: center">Ogni streaming audio in HQ Ã¨ visibile da remoto attraverso un interfaccia grafica a mosaico, dinamica e interattiva</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">Mosaico eventi</td>
+              <td style="text-align: center">Ogni streaming audio in HQ rimane disponibile per sempre, assieme alle esperienze raccontate dai clubbers con foto e GIF</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">Passaporto overground</td>
+              <td style="text-align: center">Partecipare agli eventi, suonando o riprendendo, arrichisce la popolaritÃ  di DJ e clubbers, tenendo traccia di attivitÃ  e location</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">Timeline</td>
+              <td style="text-align: center">Timeline degli eventi passati, presenti e futuri per vivere o programmare esperienze</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3 id="funzionalita-da-implementare-dettagliate">FunzionalitÃ  dettagliate da implementare</h3>
+
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+            <tr>
+              <th style="text-align: center">FunzionalitÃ  completa</th>
+              <th style="text-align: center">FunzionalitÃ  dettagliate</th>
+              <th style="text-align: center">To do</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td style="text-align: center"  rowspan="8">Base</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Music player sempre disponibile</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Schermata delle notifiche</td>
+              <td style="text-align: left">NO</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Ricerca con filtri</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Geolocalizzazione</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Messaggi privati</td>
+              <td style="text-align: left">(Se avanza tempo)</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Follow/Unfollow</td>
+              <td style="text-align: left">(Se avanza tempo)</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Login</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            <tr>
+              <td style="text-align: center"  rowspan="6">Streaming audio-video</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Video Player</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Sync tra audio master e video utenti</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Flussi audio e video separati</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Live streaming da cellulare in upload (utenti partecipanti - solo video)</td>
+              <td style="text-align: left">NO</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Live streaming da computer (superutenti - audio e video o solo audio)</td>
+              <td style="text-align: left">NO</td>
+            </tr>
+            </td>
+            <tr>
+              <td style="text-align: center" rowspan="7">Mosaico diretta evento</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Video Player</td>
+              <td style="text-align: left">NO</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Organizzazione dei tile video dinamici a mosaico</td>
+              <td style="text-align: left">NO</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Scelta della prospettiva (video master/video di un utente)</td>
+              <td style="text-align: left">NO</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Video full-screen</td>
+              <td style="text-align: left">NO</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Valutazione dell'evento ("like")</td>
+              <td style="text-align: left">NO</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Tabella informativa dell'evento</td>
+              <td style="text-align: left">NO</td>
+            </tr>
+            <tr>
+              <td style="text-align: center" rowspan="7">Mosaico evento</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Video Player</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Organizzazione dei tile multimediali a mosaico (foto/video/testo)</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Upload contenuti multimediali</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Valutazione dei contenuti multimediali di altri utenti</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Tabella informativa dell'evento (lineup, posizione, data)</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Invia invito</td>
+              <td style="text-align: left">NO</td>
+            </tr>
+            <tr>
+              <td style="text-align: center" rowspan="5">Passaporto Overground</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Mappa dinamica della storia dell'utente (pin GMaps sul luogo di ogni evento cui si Ã¨ partecipato)</td>
+              <td style="text-align: left">(Se avanza tempo)</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Elenco cronologico degli eventi cui si Ã¨ partecipato</td>
+              <td style="text-align: left">NO</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Feed personale dei contenuti pubblicati in ogni evento</td>
+              <td style="text-align: left">(Se avanza tempo)</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Modifica informazioni profilo</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            <tr>
+              <td style="text-align: center" rowspan="6">Timeline (Home)</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Slideshow dei 5 video live piÃ¹ visti</td>
+              <td style="text-align: left">NO</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Feed degli utenti seguiti</td>
+              <td style="text-align: left">(Se avanza tempo)</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Calendario degli eventi passati e futuri</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Invio inviti a eventi</td>
+              <td style="text-align: left">NO</td>
+            </tr>
+            <tr>
+              <td style="text-align: left">Ricerca eventi per data</td>
+              <td style="text-align: left">SI</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <h3 id="interazioni">Interazioni tra utenti</h3>
+
+        <div class="table-responsive">
+          <table class="table">
             <thead>
             <tr>
               <th style="text-align: center">Modello d'azione</th>
@@ -321,319 +485,159 @@
             </tr>
             </tbody>
           </table>
-              </div>
-
-        </div>
-        <div class="subsection">
-          <h2 id="funzionalita-e-architettura">Funzionalità e architettura</h2>
-
-          <h3 id="funzionalita-complete-del-social-network">Funzionalità complete del social network</h3>
-
-            <div class="table-responsive">
-          <table class="table">
-            <thead>
-              <tr>
-                <th style="text-align: center">Funzionalità complete</th>
-                <th style="text-align: center">Descrizione</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td style="text-align: center">Streaming audio-video</td>
-                <td style="text-align: center">Flussi dati audio HQ e video separati in diretta</td>
-              </tr>
-              <tr>
-                <td style="text-align: center">Mosaico dirette</td>
-                <td style="text-align: center">Ogni streaming audio in HQ è visibile da remoto attraverso un interfaccia grafica a mosaico, dinamica e interattiva</td>
-              </tr>
-              <tr>
-                <td style="text-align: center">Mosaico eventi</td>
-                <td style="text-align: center">Ogni streaming audio in HQ rimane disponibile per sempre, assieme alle esperienze raccontate dai clubbers con foto e GIF</td>
-              </tr>
-              <tr>
-                  <td style="text-align: center">Passaporto overground</td>
-                  <td style="text-align: center">Partecipare agli eventi, suonando o riprendendo, arrichisce la popolarità di DJ e clubbers, tenendo traccia di attività e location</td>
-              </tr>
-              <tr>
-                  <td style="text-align: center">Timeline</td>
-                  <td style="text-align: center">Timeline degli eventi passati, presenti e futuri per vivere o programmare esperienze</td>
-              </tr>
-            </tbody>
-          </table>
-            </div>
         </div>
 
-        <div class="subsection">
-          <h3 id="funzionalita-da-implementare-dettagliate">Funzionalità dettagliate da implementare</h3>
+      </div>
 
-            <div class="table-responsive">
-          <table class="table">
-            <thead>
-              <tr>
-                <th style="text-align: center">Funzionalità completa</th>
-                <th style="text-align: center">Funzionalità dettagliate</th>
-                <th style="text-align: center">To do</th>
-              </tr>
-            </thead>
-            <tbody>
-                <tr>
-                  <td style="text-align: center"  rowspan="8">Base</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Music player sempre disponibile</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Schermata delle notifiche</td>
-                  <td style="text-align: left">NO</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Ricerca con filtri</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Geolocalizzazione</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Messaggi privati</td>
-                  <td style="text-align: left">(Se avanza tempo)</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Follow/Unfollow</td>
-                  <td style="text-align: left">(Se avanza tempo)</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Login</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-              <tr>
-                <td style="text-align: center"  rowspan="6">Streaming audio-video</td>
-              </tr>
-                <tr>
-                  <td style="text-align: left">Video Player</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Sync tra audio master e video utenti</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Flussi audio e video separati</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Live streaming da cellulare in upload (utenti partecipanti - solo video)</td>
-                  <td style="text-align: left">NO</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Live streaming da computer (superutenti - audio e video o solo audio)</td>
-                  <td style="text-align: left">NO</td>
-                </tr>
-                </td>
-              <tr>
-                <td style="text-align: center" rowspan="7">Mosaico diretta evento</td>
-              </tr>
-                <tr>
-                  <td style="text-align: left">Video Player</td>
-                  <td style="text-align: left">NO</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Organizzazione dei tile video dinamici a mosaico</td>
-                  <td style="text-align: left">NO</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Scelta della prospettiva (video master/video di un utente)</td>
-                  <td style="text-align: left">NO</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Video full-screen</td>
-                  <td style="text-align: left">NO</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Valutazione dell'evento ("like")</td>
-                  <td style="text-align: left">NO</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Tabella informativa dell'evento</td>
-                  <td style="text-align: left">NO</td>
-                </tr>
-              <tr>
-                <td style="text-align: center" rowspan="7">Mosaico evento</td>
-              </tr>
-                <tr>
-                  <td style="text-align: left">Video Player</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Organizzazione dei tile multimediali a mosaico (foto/video/testo)</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Upload contenuti multimediali</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Valutazione dei contenuti multimediali di altri utenti</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Tabella informativa dell'evento (lineup, posizione, data)</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Invia invito</td>
-                  <td style="text-align: left">NO</td>
-                </tr>
-              <tr>
-                <td style="text-align: center" rowspan="5">Passaporto Overground</td>
-              </tr>
-                <tr>
-                  <td style="text-align: left">Mappa dinamica della storia dell'utente (pin GMaps sul luogo di ogni evento cui si è partecipato)</td>
-                  <td style="text-align: left">(Se avanza tempo)</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Elenco cronologico degli eventi cui si è partecipato</td>
-                  <td style="text-align: left">NO</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Feed personale dei contenuti pubblicati in ogni evento</td>
-                  <td style="text-align: left">(Se avanza tempo)</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Modifica informazioni profilo</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-              <tr>
-                <td style="text-align: center" rowspan="6">Timeline (Home)</td>
-              </tr>
-                <tr>
-                  <td style="text-align: left">Slideshow dei 5 video live più visti</td>
-                  <td style="text-align: left">NO</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Feed degli utenti seguiti</td>
-                  <td style="text-align: left">(Se avanza tempo)</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Calendario degli eventi passati e futuri</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Invio inviti a eventi</td>
-                  <td style="text-align: left">NO</td>
-                </tr>
-                <tr>
-                  <td style="text-align: left">Ricerca eventi per data</td>
-                  <td style="text-align: left">SI</td>
-                </tr>
-            </tbody>
-          </table>
-            </div>
-        </div>
+      <div class="subsection">
+        <h3 id="architettura-dellinformazione">Architettura dell'informazione</h3>
 
-        <div class="subsection">
-            <h3 id="architettura-dellinformazione">Architettura dell'informazione</h3>
-
-            <div class="row" id="grafici1">
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <a href="images/Flowchart.png" data-lightbox="image-1" data-title="Flowchart">
-                            <img src="images/Flowchart.png" alt="Flowchart" style="width:82%">
-                            <div class="caption">
-                                <p>Flowchart</p>
-                            </div>
-                        </a>
-                    </div>
+        <div class="row" id="grafici1">
+          <div class="col-md-6">
+            <div class="thumbnail">
+              <a href="images/Flowchart.png" data-lightbox="image-1" data-title="Flowchart">
+                <img src="images/Flowchart.png" alt="Flowchart" style="width:82%">
+                <div class="caption">
+                  <p>Flowchart</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <a href="images/diagramma%20funzionalità%20definitivo.png" data-lightbox="image-2" data-title="Upload Media Function">
-                            <img src="images/diagramma%20funzionalità%20definitivo.png" alt="Upload media function" style="width:100%">
-                            <div class="caption">
-                                <p>Upload media function</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
+              </a>
             </div>
-
-        <div class="subsection">
-          <h2 id="mockup">Mockup</h2>
-
-          <p>Inserire il mockup realizzato con Balsamiq</p>
+          </div>
+          <div class="col-md-6">
+            <div class="thumbnail">
+              <a href="images/diagramma%20funzionalitÃ %20definitivo.png" data-lightbox="image-2" data-title="Upload Media Function">
+                <img src="images/diagramma%20funzionalitÃ %20definitivo.png" alt="Upload media function" style="width:100%">
+                <div class="caption">
+                  <p>Upload media function</p>
+                </div>
+              </a>
+            </div>
+          </div>
 
         </div>
-        <div class="subsection">
-          <h2 id="video">Video</h2>
 
-          <p>Inserire il video di "promozione" del vostro social network</p>
 
-        </div>
         <div class="subsection">
           <h2 id="valutazione-con-gli-utenti">Valutazione con gli utenti</h2>
 
           <h3 id="profilo-degli-utenti">Profilo degli utenti</h3>
 
           <p>
-            Gli utenti che hanno preso parte all'indagine sono prevalentemente giovani con età compresa tra 18 e 45 anni, perlopiù studenti.
-            La nostra attenzione è stata chiaramente indirizzata verso coloro i quali amano trascorrere il tempo libero ascoltando musica da club,
+            Gli utenti che hanno preso parte all'indagine sono prevalentemente giovani con etÃ  compresa tra 18 e 45 anni, perlopiÃ¹ studenti.
+            La nostra attenzione Ã¨ stata chiaramente indirizzata verso coloro i quali amano trascorrere il tempo libero ascoltando musica da club,
             andando a ballare e cercando informazioni su eventi musicali interessanti e compatibili con i loro gusti (clubbers e DJ).
           </p>
 
           <h3 id="strumenti-della-valutazione">Strumenti della valutazione</h3>
 
           <p>
-              Per l'indagine riguardante i clubbers è stata stilata una survey che ha ricevuto 92 risposte:
+            Per l'indagine riguardante i clubbers Ã¨ stata stilata una survey che ha ricevuto 92 risposte:
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSeynjCB9SA57mwtgrWRsUJnNDd3E209F89HeHg3Lk4O9PzxJw/viewform">vedi <strong>MOSAICON</strong> su Google Forms</a>. <br /> <br />
-              Per i DJ è stato organizzato un FOCUS GROUP con traccia semi-strutturata per permettere maggiore spontaneità tra direttore e partecipanti,
-              data la relazione d'amicizia che intercorre tra le parti. I punti fondamentali affrontati sono stati: <br />
-              1. Pregi e difetti di piattaforme social come SoundCloud e MixCloud, ormai un "must" per la carriera (competitor di Mosaicon); <br />
-              2. Modalità e necessità di interazione con il pubblico (argomentazioni rispetto al trend di riprendere con il cellulare); <br />
-              3. Discussione su funzionalità innovative da proporre per superare i limiti dei competitor.
+            Per i DJ Ã¨ stato organizzato un FOCUS GROUP con traccia semi-strutturata per permettere maggiore spontaneitÃ  tra direttore e partecipanti,
+            data la relazione d'amicizia che intercorre tra le parti. I punti fondamentali affrontati sono stati: <br />
+            1. Pregi e difetti di piattaforme social come SoundCloud e MixCloud, ormai un "must" per la carriera (competitor di Mosaicon); <br />
+            2. ModalitÃ  e necessitÃ  di interazione con il pubblico (argomentazioni rispetto al trend di riprendere con il cellulare); <br />
+            3. Discussione su funzionalitÃ  innovative da proporre per superare i limiti dei competitor.
           </p>
 
           <h3 id="risultato-della-valutazione">Risultato della valutazione</h3>
 
           <p>
-              <strong>Analisi sui clubbers: </strong><br /><br />
+            <strong>Analisi sui clubbers: </strong><br /><br />
             <img class="grafici" src="images/grafico1.png"><br />
             <img class="grafici" src="images/grafico2_1.png"><br /><br />
-              <strong>Analisi sui DJ: </strong><br/>
-              1. Ritengono SoundCloud un buon mezzo di promozione, forse l'unico che permette di proporre la propria musica gratuitamente,
-              sebbene ormai, trovandosi di fronte a competitor dello streaming audio come Spotify e altri colossi, il social stia cercando di strizzare
-              l'occhio più alle major che agli utenti underground, che compongono almeno il 90% della piattaforma, per aumentare i profitti. <br />
-              MixCloud è ritenuto poco versatile e funzionale, loro stessi a volte preferiscono riversare i propri mixati su SoundCloud.<br /><br />
-              2. Il rapporto con il pubblico è essenziale all'unanimità, ognuno si rapporta a suo modo ma la costante è essere presenti, dal vivo e non.
-              Essere ripresi con il cellulare durante una serata è motivo d'orgoglio, significa essere riusciti a entrare nel cuore della gente
-              con la propria musica. <br /><br />
-              3. Dopo aver introdotto brevemente le funzionalità proposte dall'ipotetico social, è emerso che tutte possono servire
-              all'utente-tipo intervistato: avere un <strong>passaporto</strong> degli eventi significa poter comunicare ai seguaci gli eventi
-              organizzati e quelli che si organizzeranno, usufruire quindi dell'<strong>evento offline</strong> rivivendo l'esperienza del club
-              può solo far bene alla figura del dj che può essere scoperto da altri utenti non presenti alla serata, o ai locali interessati ad
-              arricchire il roster. Molto apprezzata l'idea del <strong>mosaico</strong>, vista però più utile per i clubbers che per loro.
-              Infine, essenziale la presenza di una <strong>traccia audio HQ</strong> per dare "giustizia" al lavoro eseguito live, evitando
-              di far sentire l'audio originale del cellulare.
-            </p>
+            <strong>Analisi sui DJ: </strong><br/>
+            1. Ritengono SoundCloud un buon mezzo di promozione, forse l'unico che permette di proporre la propria musica gratuitamente,
+            sebbene ormai, trovandosi di fronte a competitor dello streaming audio come Spotify e altri colossi, il social stia cercando di strizzare
+            l'occhio piÃ¹ alle major che agli utenti underground, che compongono almeno il 90% della piattaforma, per aumentare i profitti. <br />
+            MixCloud Ã¨ ritenuto poco versatile e funzionale, loro stessi a volte preferiscono riversare i propri mixati su SoundCloud.<br /><br />
+            2. Il rapporto con il pubblico Ã¨ essenziale all'unanimitÃ , ognuno si rapporta a suo modo ma la costante Ã¨ essere presenti, dal vivo e non.
+            Essere ripresi con il cellulare durante una serata Ã¨ motivo d'orgoglio, significa essere riusciti a entrare nel cuore della gente
+            con la propria musica. <br /><br />
+            3. Dopo aver introdotto brevemente le funzionalitÃ  proposte dall'ipotetico social, Ã¨ emerso che tutte possono servire
+            all'utente-tipo intervistato: avere un <strong>passaporto</strong> degli eventi significa poter comunicare ai seguaci gli eventi
+            organizzati e quelli che si organizzeranno, usufruire quindi dell'<strong>evento offline</strong> rivivendo l'esperienza del club
+            puÃ² solo far bene alla figura del dj che puÃ² essere scoperto da altri utenti non presenti alla serata, o ai locali interessati ad
+            arricchire il roster. Molto apprezzata l'idea del <strong>mosaico</strong>, vista perÃ² piÃ¹ utile per i clubbers che per loro.
+            Infine, essenziale la presenza di una <strong>traccia audio HQ</strong> per dare "giustizia" al lavoro eseguito live, evitando
+            di far sentire l'audio originale del cellulare.
+          </p>
 
           <h3 id="analisi-critica-e-lavoro-futuro">Analisi critica e lavoro futuro</h3>
 
           <p>
-            Non ci sono stati particolari problemi riscontrati nella nostra visione del social rispetto a quella degli utenti, tutto è stato
-            fortunatamente confermato e arricchito da alcuni suggerimenti, in corso di discussione all'interno del team. L'unica pecca è stata
-            non essere riusciti a proporre un'intervista approfondita ai locali nonostante avessimo già la traccia pronta,
-            poiché difficoltoso entrarvi in contatto, ma contiamo di farlo per il futuro.<br />
-            Le funzionalità proposte sono state confermate dalle interviste, difatti le percentuali di gradimento si attestano su una media
-            piuttosto equilibrata; si cercherà di implementarle con attenzione maggiore rispetto alle singole percentuali di gradimento.
+            Non ci sono stati particolari problemi riscontrati nella nostra visione del social rispetto a quella degli utenti, tutto Ã¨ stato
+            fortunatamente confermato e arricchito da alcuni suggerimenti, in corso di discussione all'interno del team. L'unica pecca Ã¨ stata
+            non essere riusciti a proporre un'intervista approfondita ai locali nonostante avessimo giÃ  la traccia pronta,
+            poichÃ© difficoltoso entrarvi in contatto, ma contiamo di farlo per il futuro.<br />
+            Le funzionalitÃ  proposte sono state confermate dalle interviste, difatti le percentuali di gradimento si attestano su una media
+            piuttosto equilibrata; si cercherÃ  di implementarle con attenzione maggiore rispetto alle singole percentuali di gradimento.
           </p>
 
 
         </div>
+      </div>
+      <div class="subsection">
+        <h2 id="nome-del-progetto-e-repository-github">Nome del progetto e repository github</h2>
+
+        <p>Nome del progetto: MOSAICON</p>
+        <p>Repository del sito di presentazione progetto: <a href="https://github.com/SoNet-2017/MOSAICON">https://github.com/SoNet-2017/MOSAICON</a></p>
+        <p>Repository del prototipo (codice): <a href="https://github.com/SoNet-2017/MOSAICON-code">https://github.com/SoNet-2017/MOSAICON-code</a></p>
+
+
+      </div>
+      <div class="subsection">
+        <h2 id="membri-del-team">Team</h2>
+
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+            <tr>
+              <th style="text-align: center">Matricola</th>
+              <th style="text-align: center">Cognome</th>
+              <th style="text-align: center">Nome</th>
+              <th style="text-align: center">E-mail</th>
+              <th style="text-align: center">GitHub</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td style="text-align: center">243902</td>
+              <td style="text-align: center">Mattia</td>
+              <td style="text-align: center">Meloni</td>
+              <td style="text-align: center">imelon24@yahoo.com</td>
+              <td style="text-align: center">mlnmtt</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">240680</td>
+              <td style="text-align: center">Danilo</td>
+              <td style="text-align: center">Ronchi</td>
+              <td style="text-align: center">mastarwonki@hotmail.it</td>
+              <td style="text-align: center">mastarwonki</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">193204</td>
+              <td style="text-align: center">Luca</td>
+              <td style="text-align: center">Leli</td>
+              <td style="text-align: center">luca_toni@live.it</td>
+              <td style="text-align: center">russia1993</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">240750</td>
+              <td style="text-align: center">Giuliano</td>
+              <td style="text-align: center">Cammarata</td>
+              <td style="text-align: center">giuliano.cammarata@studenti.polito.it</td>
+              <td style="text-align: center">giul.cammarata</td>
+            </tr>
+            </tbody>
+          </table>
         </div>
-      </section>
-    </div>
+
+
+      </div>
+    </section>
   </div>
-  </body>
+</div>
+</body>
 </html>
 

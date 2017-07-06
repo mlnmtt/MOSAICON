@@ -9,22 +9,23 @@ html {
 
 }
 
-header {
+.body {
+    font-family: Futura;
+    color: snow;
+}
 
-    background-color: #333;
+header {
+    background-color: #080808;
     height: 100px;
     border-style: solid;
     border-radius: 1px;
     border-width: 1px;
-    border-color: #222;
+    border-color: #080808;
 }
 
 h1 {
-
     text-align: center;
     align-items: center;
-
-
 }
 
 #susa {
@@ -32,19 +33,18 @@ h1 {
 }
 
 #mosaicon {
-
     width: 340px;
     height: auto;
 }
 
 h2 {
     font-size: 24px;
-    color: darkred;
+    color: firebrick;
 }
 
 h3, h4, h5, h6 {
     font-weight: bold;
-    color: maroon;
+    color: firebrick;
 }
 
 h3 {
@@ -77,14 +77,12 @@ a {
 }
 
 #banner {
-
-    background-color: #BB464A;
+    background-color: firebrick;
     border-radius: 2px;
     box-shadow: #444444;
     height: 50px;
     max-width: 100%;
     /*margin-right: 16px;*/
-
 }
 
 /*
@@ -96,7 +94,6 @@ a {
 } */
 
 #nav_bar {
-
     background-position: 10px 15px;
     padding:10px;
     min-height:30px;
@@ -113,13 +110,14 @@ a {
     border-radius: 2px;
     background-color: #333;
     width: 85%; */
-
 }
 
 section {
-    color: black;
+    font-size: 14px;
+    font-family: Borgen;
+    color: snow;
     overflow: hidden;
-    background-color: #777;
+    background-color: #080808;
     padding-left: 30px;
     padding-right: 30px;
     /*padding-bottom: 30px;
@@ -140,7 +138,7 @@ nav > ul {
 
 
 nav > ul > li > a {
-    color: whitesmoke;
+    color: snow;
 }
 
 nav  ul  li  a:hover {
@@ -164,10 +162,6 @@ th {
 
 .subsection {
 
-    padding-bottom: 19px;
-    background-image: url("../images/oriz.png");
-    background-position-x: center;
-    background-repeat: repeat-x;
     padding-top: 10px;
     padding-right: 1px;
     padding-left: 1px;
@@ -222,7 +216,7 @@ th {
 }
 
 #slogan {
-    
+
     width: 100%;
     height: auto;
 }
@@ -303,9 +297,8 @@ nav ul:hover li {
 }
 
 #myCarousel {
-    width: 33%;
     height: auto;
-    margin-top: 40px;
+    margin-top: 20%;
 }
 
 #grafici1 {
