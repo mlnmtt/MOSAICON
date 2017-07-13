@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: 'Borgen', 'Futura', 'Monospaced';
+    font-family: 'Borgen', 'Futura', 'monospace';
     background-color: #080808;
     color: snow;
     text-align: justify;
@@ -22,7 +22,7 @@ header {
     background-color: #080808;
 }
 
-.blocco {
+#blocco {
     position: fixed;
     z-index: 20;
     left: 17%;
@@ -39,7 +39,6 @@ strong {
 }
 
 .wrapper {
-    padding-top: 155px;
 }
 
 #susa {
@@ -316,7 +315,7 @@ nav ul:hover li {
 
 #myCarousel {
     height: auto;
-    margin-top: 25%;
+    margin-top: 10%;
     border: 1px solid firebrick;
 }
 
