@@ -2,16 +2,11 @@ html {
     display: block;
 }
 
-
-.container {
-
+body {
+    font-family: 'Borgen', 'Futura', 'Monospaced';
     background-color: #080808;
-
-}
-
-.body {
-    font-family: Futura;
     color: snow;
+    text-align: justify;
 }
 
 header {
@@ -23,9 +18,28 @@ header {
     border-color: #080808;
 }
 
+.container {
+    background-color: #080808;
+}
+
+.blocco {
+    position: fixed;
+    z-index: 20;
+    left: 17%;
+    right: 17%;
+}
+
 h1 {
     text-align: center;
     align-items: center;
+}
+
+strong {
+    font-size: 20px;
+}
+
+.wrapper {
+    padding-top: 155px;
 }
 
 #susa {
@@ -51,6 +65,9 @@ h3 {
     font-size: 18px;
 }
 
+.col {
+    padding: 5px;
+}
 
 th {
     text-align: left;
@@ -209,14 +226,15 @@ th {
 }
 
 .grafici {
-
+    border: 2px solid firebrick;
+    border-radius: 5px;
     width: 100%;
     height: auto;
     opacity: 0.8;
 }
 
 #slogan {
-
+    border: 1px solid firebrick;
     width: 100%;
     height: auto;
 }
@@ -298,7 +316,8 @@ nav ul:hover li {
 
 #myCarousel {
     height: auto;
-    margin-top: 20%;
+    margin-top: 25%;
+    border: 1px solid firebrick;
 }
 
 #grafici1 {
