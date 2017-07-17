@@ -232,7 +232,7 @@ th {
     opacity: 0.8;
 }
 
-#slogan {
+.slogan {
     border: 1px solid firebrick;
     width: 100%;
     height: auto;
