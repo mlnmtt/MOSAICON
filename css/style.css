@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: 'Borgen', 'Futura', 'monospace';
+    font-family:'Roboto Mono', 'Borgen', 'Futura', 'monospace';
     background-color: #080808;
     color: snow;
     text-align: justify;
