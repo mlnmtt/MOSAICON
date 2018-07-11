@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: "Roboto Mono", "Borgen", "Futura", "monospace";
+    font-family: "Roboto Mono", "Borgen", "monospace", "Futura";
     background-color: #080808;
     color: snow;
     text-align: justify;
@@ -130,7 +130,7 @@ a {
 
 section {
     font-size: 14px;
-    font-family: "Roboto Mono", "Borgen", "Futura", "monospace";
+    font-family: "Roboto Mono", "Borgen", "monospace", "Futura";
     color: snow;
     overflow: hidden;
     background-color: #080808;
